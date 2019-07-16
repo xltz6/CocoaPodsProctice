@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MyWeiboHomePage_Example' do
+  pod 'MyWeiboHomePage', :path => '../'
+
+  target 'MyWeiboHomePage_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
