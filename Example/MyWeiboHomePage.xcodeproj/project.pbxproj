@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D20E0AFAF4905D7D3786EF /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyWeiboHomePage.podspec; path = ../MyWeiboHomePage.podspec; sourceTree = "<group>"; };
+		17D20E0AFAF4905D7D3786EF /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyWeiboHomePage.podspec; path = ../MyWeiboHomePage.podspec; sourceTree = "<group>"; };
 		1D9524C338C2860D4B34E909 /* Pods-MyWeiboHomePage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeiboHomePage_Example.release.xcconfig"; path = "Target Support Files/Pods-MyWeiboHomePage_Example/Pods-MyWeiboHomePage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E8670116EB746469BD48715 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E8670116EB746469BD48715 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A3B0093CE8E00FC0A352CAA /* Pods_MyWeiboHomePage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeiboHomePage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MyWeiboHomePage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeiboHomePage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6CEE3EE6FCAE0B7A6058745D /* Pods-MyWeiboHomePage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeiboHomePage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyWeiboHomePage_Tests/Pods-MyWeiboHomePage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BC14623A5123EACFEBE21DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7BC14623A5123EACFEBE21DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40AF98FEE2CDD50620C8AC5 /* Pods-MyWeiboHomePage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeiboHomePage_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyWeiboHomePage_Example/Pods-MyWeiboHomePage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E243E8518A7792491D456745 /* Pods_MyWeiboHomePage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeiboHomePage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				6CEE3EE6FCAE0B7A6058745D /* Pods-MyWeiboHomePage_Tests.debug.xcconfig */,
 				EFBDC108C28A72BCCCC46766 /* Pods-MyWeiboHomePage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Xuan Liu";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SKNS7L8V63;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = A40AF98FEE2CDD50620C8AC5 /* Pods-MyWeiboHomePage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKNS7L8V63;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWeiboHomePage/MyWeiboHomePage-Prefix.pch";
 				INFOPLIST_FILE = "MyWeiboHomePage/MyWeiboHomePage-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 1D9524C338C2860D4B34E909 /* Pods-MyWeiboHomePage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKNS7L8V63;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWeiboHomePage/MyWeiboHomePage-Prefix.pch";
 				INFOPLIST_FILE = "MyWeiboHomePage/MyWeiboHomePage-Info.plist";

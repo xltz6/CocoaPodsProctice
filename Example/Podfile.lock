@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - MyWeiboHomePage (from `../`)
+  - MyWeiboHomePage (from `../MyWeiboHomePage.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,12 +16,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MyWeiboHomePage:
-    :path: "../"
+    :path: "../MyWeiboHomePage.podspec"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MyWeiboHomePage: 708a667d9905736109be19d675e698375f5328cd
 
-PODFILE CHECKSUM: 363d56e93af18b7fdd188da7bafb01d0000bd903
+PODFILE CHECKSUM: 0cf6ab13f6eb06da2b4c470a9e20491f1f87fcc1
 
 COCOAPODS: 1.7.4
