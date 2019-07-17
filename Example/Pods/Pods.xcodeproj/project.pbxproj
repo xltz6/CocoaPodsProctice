@@ -93,7 +93,7 @@
 		1645E13DD22BDEA744F0107A29C5185C /* Pods-MyWeiboHomePage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyWeiboHomePage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1A82E4AB5C33684BA7D5C8C3D377A278 /* Pods-MyWeiboHomePage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyWeiboHomePage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		22D5C956293B71A86F2B190D520A2354 /* MyWeiboHomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyWeiboHomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D5C956293B71A86F2B190D520A2354 /* MyWeiboHomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyWeiboHomePage.framework; path = MyWeiboHomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24743BC611C4BF44C10072F4D43CC322 /* PostTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PostTableViewController.m; path = MyWeiboHomePage/Classes/PostTableViewController.m; sourceTree = "<group>"; };
 		2907802A38B23DF62C4CA78232B513EB /* HeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = MyWeiboHomePage/Classes/HeaderView.m; sourceTree = "<group>"; };
 		2C2728BB09FD4F1C65955630B945CF7A /* Pods-MyWeiboHomePage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyWeiboHomePage_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		4A3857A8A380E036BFCFCA2F17ECF765 /* Pods-MyWeiboHomePage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyWeiboHomePage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BFBE3DA1E32CC0E662770EA3ED700F4 /* BaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = MyWeiboHomePage/Classes/BaseTableViewController.h; sourceTree = "<group>"; };
 		506037AC761201B8CC9D3D4DF7A4AEA7 /* MyWeiboHomePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyWeiboHomePage-prefix.pch"; sourceTree = "<group>"; };
-		52DDDD35FBBE08A703DD9D96BCC1DACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DDDD35FBBE08A703DD9D96BCC1DACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F4D065EEC9DE1A4741FDFBCC165155B /* Pods-MyWeiboHomePage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyWeiboHomePage_Example.modulemap"; sourceTree = "<group>"; };
 		60E74C8538802BA49451C2E98FD8C4F2 /* PostTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PostTableViewController.h; path = MyWeiboHomePage/Classes/PostTableViewController.h; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		631623027EFBBB8B8AEB3E6554350512 /* BaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = MyWeiboHomePage/Classes/BaseTableViewController.m; sourceTree = "<group>"; };
 		67571710A9A8160850F81F5A31504FAF /* ProfileTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProfileTableViewController.m; path = MyWeiboHomePage/Classes/ProfileTableViewController.m; sourceTree = "<group>"; };
 		68D829A10FF0325ABC5F2E4A28372079 /* Pods-MyWeiboHomePage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyWeiboHomePage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6998F9DFF83A7170594A562B7DB3D059 /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyWeiboHomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6DBE096C159119B25B9A660FFB9A7019 /* Pods_MyWeiboHomePage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeiboHomePage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6998F9DFF83A7170594A562B7DB3D059 /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyWeiboHomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6DBE096C159119B25B9A660FFB9A7019 /* Pods_MyWeiboHomePage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyWeiboHomePage_Tests.framework; path = "Pods-MyWeiboHomePage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		749A5F6A9CA889840E21CEB7BF64F56C /* ColorUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorUtility.h; path = MyWeiboHomePage/Classes/ColorUtility.h; sourceTree = "<group>"; };
@@ -137,17 +137,17 @@
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9A3E51951285DCA5F6BD0165FAAAD3F6 /* Pods-MyWeiboHomePage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyWeiboHomePage_Tests.modulemap"; sourceTree = "<group>"; };
-		9B3763EFDD3668E19B296297D02A0F19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B3763EFDD3668E19B296297D02A0F19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF5EABAA872CF55F217F5EB4C674D3B /* ProfileTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProfileTableViewController.h; path = MyWeiboHomePage/Classes/ProfileTableViewController.h; sourceTree = "<group>"; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A6D7D03941E03CE3003FE47C8CE7BFE8 /* 123.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = 123.jpg; path = MyWeiboHomePage/Classes/123.jpg; sourceTree = "<group>"; };
+		A6D7D03941E03CE3003FE47C8CE7BFE8 /* 123.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = 123.jpg; path = MyWeiboHomePage/Classes/123.jpg; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B519759E7508573FE05E20264BE82340 /* Pods-MyWeiboHomePage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyWeiboHomePage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BBC2580BB6C7FAE604DEA1A36E285D50 /* MyWeiboHomePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyWeiboHomePage.modulemap; sourceTree = "<group>"; };
 		C0325EB59F1A9A58901C4B3363BFA49C /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = MyWeiboHomePage/Classes/HMSegmentedControl.m; sourceTree = "<group>"; };
-		C2A98F2AABC97117534F012095A7FD76 /* Pods_MyWeiboHomePage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeiboHomePage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A98F2AABC97117534F012095A7FD76 /* Pods_MyWeiboHomePage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyWeiboHomePage_Example.framework; path = "Pods-MyWeiboHomePage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D9CD06159D02745E025BE1E9C155B625 /* MyWeiboHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyWeiboHomePage-dummy.m"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -338,6 +338,7 @@
 				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
 				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -857,7 +858,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
