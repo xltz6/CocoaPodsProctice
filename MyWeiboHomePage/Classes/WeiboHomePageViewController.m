@@ -306,7 +306,7 @@
                 self.offsetYDict[key] = @(offsetY);
             // update other child views
             else{
-                if (![_offsetYDict[key] floatValue] == CGFLOAT_MIN && [_offsetYDict[key] floatValue] <= headerImageHeight - NaviBarHeight){
+                if (!([self.offsetYDict[key] floatValue] == CGFLOAT_MIN) && [self.offsetYDict[key] floatValue] <= headerImageHeight - NaviBarHeight){
                     self.offsetYDict[key] = @(headerImageHeight - NaviBarHeight);
                 }
             }
@@ -340,7 +340,7 @@
                 //                self.offsetYDict[key] = @(headerImageHeight - NaviBarHeight);
                 //            }
                 else{
-                    if (![_offsetYDict[key] floatValue] == CGFLOAT_MIN && [_offsetYDict[key] floatValue] <= headerImageHeight - NaviBarHeight){
+                    if (!([self.offsetYDict[key] floatValue] == CGFLOAT_MIN) && [self.offsetYDict[key] floatValue] <= headerImageHeight - NaviBarHeight){
                         self.offsetYDict[key] = @(headerImageHeight - NaviBarHeight);
                     }
                 }
