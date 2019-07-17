@@ -75,7 +75,7 @@
     _scrollview.backgroundColor = [UIColor whiteColor];
     _scrollview.scrollEnabled = YES;
     _scrollview.contentOffset = CGPointMake(0, 0);
-    _scrollview.delegate = self;
+//    _scrollview.delegate = self;
     _scrollview.pagingEnabled = YES;
     _scrollview.bounces = YES;
     _scrollview.showsHorizontalScrollIndicator = NO;
