@@ -1,9 +1,9 @@
 {
   "name": "MyWeiboHomePage",
   "version": "0.1.0",
-  "summary": "A short description of MyWeiboHomePage.",
+  "summary": "This example is a MyWeiboHomePage.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Xuan Liu/MyWeiboHomePage",
+  "homepage": "https://github.com/xltz6/CocoaPodsProctice",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Xuan Liu": "liuxuan.1010@bytedance.com"
   },
   "source": {
-    "git": "https://github.com/Xuan Liu/MyWeiboHomePage.git",
+    "git": "https://github.com/xltz6/CocoaPodsProctice.git",
     "tag": "0.1.0"
   },
   "platforms": {
