@@ -118,7 +118,7 @@
 
 // Create HeadView and initialize the segement control
 - (void)addHeaderView {
-    HeaderView *headerView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"MyWeiboHomePage.bundle/HeaderView" owner:nil options:nil] lastObject];
+    HeaderView *headerView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
     //header height image height (200) + segment control (40)
     headerView.frame = CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight);
     headerView.nameLabel.text = @"我的主页";
