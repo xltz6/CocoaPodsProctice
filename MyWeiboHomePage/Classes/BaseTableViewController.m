@@ -32,6 +32,10 @@
     
 }
 
+- (void)dealloc {
+    NSLog(@"%@销毁", self);
+}
+
 #pragma mark - scrollView Delegate
 // using ScrollView Delegate to know the offsetY of the scrolled table view
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

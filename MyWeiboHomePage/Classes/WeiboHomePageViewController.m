@@ -118,7 +118,9 @@
 
 // Create HeadView and initialize the segement control
 - (void)addHeaderView {
-    HeaderView *headerView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
+    NSString *path = [NSString stringWithFormat:@"%@/Frameworks/MyWeiboHomePage.framework/%@.bundle", [NSBundle mainBundle].resourcePath, @"MyWeiboHomePageAssets"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
     //header height image height (200) + segment control (40)
     headerView.frame = CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight);
     headerView.nameLabel.text = @"我的主页";
@@ -156,7 +158,7 @@
 // swipe to switch table views according to the index
 - (void)showChildVCViewsAtIndex:(NSInteger)index {
     // check for invalid input index
-    NSLog(@"first time");
+    //NSLog(@"first time");
     if (self.childViewControllers.count == 0 || index < 0 || index > self.childViewControllers.count - 1) {
         return;
     }
@@ -175,11 +177,13 @@
     vc.tableView.contentOffset = CGPointMake(0, offsetY);
     
     // for printing purpose
+    /*
     NSLog(@"newVC offsetY : %f", offsetY);
     
     for(NSString *key in [_offsetYDict allKeys]) {
         NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
     }
+    */
     
     // in two situation, set headerview to different position according to the current offsetY
     if (offsetY <= headerImageHeight - NaviBarHeight) {
@@ -209,7 +213,7 @@
     // before going to another table view, record the current offset and update other child table view
     if (scrollView == self.scrollview) {
         BaseTableViewController *newVC = self.childViewControllers[_currentIndex];
-        NSLog(@"scroll view");
+        //NSLog(@"scroll view");
         
         // update offset
         for (BaseTableViewController *childVC in self.childViewControllers) {
@@ -279,7 +283,7 @@
 - (NSMutableDictionary *)offsetYDict{
     //if offsetDict is not exist, create new
     if (!_offsetYDict){
-        NSLog(@"initialize");
+        //NSLog(@"initialize");
         _offsetYDict = [NSMutableDictionary dictionary];
         for (BaseTableViewController *childVC in self.childViewControllers){
             //using addressStr as key for NSMutableDictionary, set initial value as minimum value of CGFloat
@@ -356,9 +360,9 @@
                 self.offsetYDict[addressStr] = @(segBarHeight);
             }
         }
-        for(NSString *key in [_offsetYDict allKeys]) {
-            NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
-        }
+//        for(NSString *key in [_offsetYDict allKeys]) {
+//            NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
+//        }
     }
 }
 

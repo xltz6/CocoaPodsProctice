@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'MyWeiboHomePage/Classes/**/*'
   
   s.resource_bundles = {
-    'MyWeiboHomePage' => ['MyWeiboHomePage/Assets/*']
+    'MyWeiboHomePageAssets' => ['MyWeiboHomePage/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

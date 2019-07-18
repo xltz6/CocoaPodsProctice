@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - MyWeiboHomePage (0.6.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - MyWeiboHomePage (from `../MyWeiboHomePage.podspec`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
+  - MyWeiboHomePage (from `../`)
 
 EXTERNAL SOURCES:
   MyWeiboHomePage:
-    :path: "../MyWeiboHomePage.podspec"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MyWeiboHomePage: 54510c322bd58d110b04d4e053f3ef65f8c45ed7
+  MyWeiboHomePage: 44f757bf7cd98b9fe6904f454061b9bcbc4b06c6
 
-PODFILE CHECKSUM: 0cf6ab13f6eb06da2b4c470a9e20491f1f87fcc1
+PODFILE CHECKSUM: 11b1dc8a279bea3231c871fb08448e7f33084360
 
 COCOAPODS: 1.7.4

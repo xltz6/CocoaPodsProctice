@@ -20,7 +20,7 @@
   },
   "source_files": "MyWeiboHomePage/Classes/**/*",
   "resource_bundles": {
-    "MyWeiboHomePage": [
+    "MyWeiboHomePageAssets": [
       "MyWeiboHomePage/Assets/*"
     ]
   }
