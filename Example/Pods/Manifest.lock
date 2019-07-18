@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MyWeiboHomePage (0.2.0)
+  - MyWeiboHomePage (0.5.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MyWeiboHomePage: de45ff0aafe841ff5398d303abf9949d469efb8b
+  MyWeiboHomePage: 41646151ba1e136511beef81a7f3786fa0ba1788
 
 PODFILE CHECKSUM: 0cf6ab13f6eb06da2b4c470a9e20491f1f87fcc1
 
