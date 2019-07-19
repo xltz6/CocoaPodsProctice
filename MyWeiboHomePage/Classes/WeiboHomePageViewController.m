@@ -124,8 +124,8 @@
 //    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
     //header height image height (200) + segment control (40)
     HeaderView *headerView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight)];
-    NSLog(@"%@",path);
-    headerView.headerImage.image = [UIImage imageWithContentsOfFile:filepath];
+    NSLog(@"%@",filepath);
+    headerView.headerImage.image = [UIImage imageNamed:@"123.jpg" inBundle:bundle compatibleWithTraitCollection:nil];
     headerView.nameLabel.text = @"我的主页";
     self.headerView = headerView;
     self.segCtrl = headerView.segControl;
