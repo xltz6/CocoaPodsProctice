@@ -75,7 +75,7 @@
     _scrollview.backgroundColor = [UIColor whiteColor];
     _scrollview.scrollEnabled = YES;
     _scrollview.contentOffset = CGPointMake(0, 0);
-//    _scrollview.delegate = self;
+    _scrollview.delegate = self;
     _scrollview.pagingEnabled = YES;
     _scrollview.bounces = YES;
     _scrollview.showsHorizontalScrollIndicator = NO;
@@ -120,9 +120,12 @@
 - (void)addHeaderView {
     NSString *path = [NSString stringWithFormat:@"%@/Frameworks/MyWeiboHomePage.framework/%@.bundle", [NSBundle mainBundle].resourcePath, @"MyWeiboHomePageAssets"];
     NSBundle *bundle = [NSBundle bundleWithPath:path];
-    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
+    NSString *filepath = [[bundle resourcePath] stringByAppendingPathComponent:@"123.jpg"];
+//    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
     //header height image height (200) + segment control (40)
-    headerView.frame = CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight);
+    HeaderView *headerView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight)];
+    NSLog(@"%@",path);
+    headerView.headerImage.image = [UIImage imageWithContentsOfFile:filepath];
     headerView.nameLabel.text = @"我的主页";
     self.headerView = headerView;
     self.segCtrl = headerView.segControl;

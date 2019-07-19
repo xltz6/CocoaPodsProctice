@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A8617385ACC4424EB623D69F8368C08 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF16B80A875A202C52C6ABBEC392635 /* HMSegmentedControl.m */; };
-		0DC3C8C8EDE5F72C49203CAFB8BEDD12 /* ColorUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7692C09E4B9A7B7A5E2F7B35D2FD46 /* ColorUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15C7C419AA129879B91642F0503586C7 /* HeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6E1106146934C0BAEB97C7E0C29900 /* HeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D5E1F0C272088C277029C24D582EDB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A8E5C62D0AEF22CF2FF3985B4FE68 /* ReplaceMe.m */; };
+		0A8617385ACC4424EB623D69F8368C08 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C08FB6FE91CB4E712E7A8BF2159B70A2 /* HMSegmentedControl.m */; };
+		0DC3C8C8EDE5F72C49203CAFB8BEDD12 /* ColorUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CA9107B9FAF89C1A41ED2B0B015FC5 /* ColorUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C7C419AA129879B91642F0503586C7 /* HeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 664C317A66FEA9A6A22082BDB6B5445D /* HeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D5E1F0C272088C277029C24D582EDB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A787BAA0C91049423A9F97BA0ECB7E /* ReplaceMe.m */; };
 		2342E06E5435897F2597B2D5BBE8B08F /* Pods-MyWeiboHomePage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 756E835EF72D67BF1F1B213D2626AE7E /* Pods-MyWeiboHomePage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2566792C18D69342F35F99BE6431E38E /* MyWeiboHomePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0729114383F1E39C24E01BA5237C1708 /* MyWeiboHomePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2566792C18D69342F35F99BE6431E38E /* MyWeiboHomePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CBBE71469390A543E63F3CA326E1F6 /* MyWeiboHomePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46DAF4659159ED18501E58EB9FF4E72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		53A55C8878DC3D74627ADA068674CFAB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C39BA70E870DDB6D29116C1FCC6E7B /* HeaderView.xib */; };
 		5F719888804643D687ADDEA09C0679D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		709FF5F2CF7676F31FD5B9286E846CEB /* PostTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5EA4931905755560F8E24E5813D6E3 /* PostTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73B8668C0B71E5FE96CA7C64CDB7A5DF /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741A9B707888767A61DD13189C75265 /* HeaderView.m */; };
-		76043852995227018DD665CADDE29624 /* BaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 671A1C5AC44E72B25DEC1FC3D9C561AE /* BaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		833B949ED1D78A6BE1DD9477C2505346 /* PhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B291991A09C4C598AA9B72429ABA2 /* PhotoTableViewController.m */; };
-		851574507E9EA3E55A707E77D25BAC61 /* ProfileTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8CEB7D60840D1BE84B29FD14BFB6A5 /* ProfileTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		885C008534AB115548CC3BDDA6B4E779 /* ColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C58C1EC924677B95B581C99AAB05CC /* ColorUtility.m */; };
+		709FF5F2CF7676F31FD5B9286E846CEB /* PostTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A57845B963E4FCB5049FDAD726E61C15 /* PostTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B8668C0B71E5FE96CA7C64CDB7A5DF /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A29D1F9E90B291E87C6DCBC4504F43E /* HeaderView.m */; };
+		76043852995227018DD665CADDE29624 /* BaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4129DFD3470451D5EA85EB3F07950226 /* BaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5F7A33F555864783FC3B9B0203CFFA /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE091F5CE4E792102E7DF973ADCA1C33 /* 123.jpg */; };
+		833B949ED1D78A6BE1DD9477C2505346 /* PhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78FE556FD92A3DD3B2E95532FB5905 /* PhotoTableViewController.m */; };
+		851574507E9EA3E55A707E77D25BAC61 /* ProfileTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 991C3B86A1230D8E6F5EB19B8EB64A92 /* ProfileTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885C008534AB115548CC3BDDA6B4E779 /* ColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1359A03E6623BB913DFFE11C5D323EA4 /* ColorUtility.m */; };
 		8D8E094ACD4D0A7CD2F66047D51C3C6D /* MyWeiboHomePageAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5B8D1338F7732A5AE6C25DEE67FED /* MyWeiboHomePageAssets.bundle */; };
-		8FE1637C2B17B16D09493BAFA04D2371 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57BFA9C4CF0A0D5251CF70A55B3C7FB6 /* 123.jpg */; };
-		9EFFBD4FC4842019BE6B4882C6150E8B /* MyWeiboHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE99B1686FBEA04E7F59CFF3BF591AF /* MyWeiboHomePage-dummy.m */; };
-		D3903A28338E2C3F411A74C8422CDC07 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB198CE88F6C5EABCF2E1B9D04A5F0B /* BaseTableViewController.m */; };
-		D614EDACC0A383B8CCC06CC080565FC2 /* PhotoTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F135506B0DFDAD3E930B0F49CA7E8D /* PhotoTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2FE14D9ED87F99079D9DB53DBFB88B6 /* WeiboHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38CBFD51CD4485CB63AFF40CCEC96A6 /* WeiboHomePageViewController.m */; };
-		E30D01DA8B679D32717FBECA298164FD /* PostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E327E3BF8E0B700FFAD67BAC45AE39F2 /* PostTableViewController.m */; };
-		EB99865CAB0544737A98AFFF5B1566AA /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DF38C422A15462A3C20B6815AB4557 /* ProfileTableViewController.m */; };
+		9EFFBD4FC4842019BE6B4882C6150E8B /* MyWeiboHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E8B4D37179723AF7397BA4C4031E71 /* MyWeiboHomePage-dummy.m */; };
+		D3903A28338E2C3F411A74C8422CDC07 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC592FD04C0C7614C25FDE2E376BD74 /* BaseTableViewController.m */; };
+		D614EDACC0A383B8CCC06CC080565FC2 /* PhotoTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBFF3680E8A30C345F4E30C0461EFDC /* PhotoTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FE14D9ED87F99079D9DB53DBFB88B6 /* WeiboHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F2B9E0A63D6E5E7490FD2A2A67CFB9 /* WeiboHomePageViewController.m */; };
+		E30D01DA8B679D32717FBECA298164FD /* PostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0386800BC3D358D5CD8E24AB20C9B857 /* PostTableViewController.m */; };
+		EB99865CAB0544737A98AFFF5B1566AA /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1492FB8EE4EA8ACE18AA98F34DF6B10 /* ProfileTableViewController.m */; };
 		ED301A9C276C790C159B0B59AFEFF80D /* Pods-MyWeiboHomePage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15947456FC95B421DF1542E6B96D3F51 /* Pods-MyWeiboHomePage_Example-dummy.m */; };
-		F4B6088282EB75D38F1351B79AA5D2F3 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D64787AE0B8DB7C19AF5878EAAB2CF5 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0C7A7A61BBAFB8217F401B488A87A6 /* WeiboHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E16FAE76668102E34AD2D51016182B3 /* WeiboHomePageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B6088282EB75D38F1351B79AA5D2F3 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B67FBF4B0769EB702B4E91F07B8F92 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0C7A7A61BBAFB8217F401B488A87A6 /* WeiboHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B68BADE4688349D59043246F719DC690 /* WeiboHomePageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,49 +52,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C39BA70E870DDB6D29116C1FCC6E7B /* HeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HeaderView.xib; path = MyWeiboHomePage/Assets/HeaderView.xib; sourceTree = "<group>"; };
-		0729114383F1E39C24E01BA5237C1708 /* MyWeiboHomePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyWeiboHomePage-umbrella.h"; sourceTree = "<group>"; };
+		0386800BC3D358D5CD8E24AB20C9B857 /* PostTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PostTableViewController.m; path = MyWeiboHomePage/Classes/PostTableViewController.m; sourceTree = "<group>"; };
+		09A787BAA0C91049423A9F97BA0ECB7E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyWeiboHomePage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0D290411E6003A0BDE189E89F05BBD74 /* Pods-MyWeiboHomePage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyWeiboHomePage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1359A03E6623BB913DFFE11C5D323EA4 /* ColorUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorUtility.m; path = MyWeiboHomePage/Classes/ColorUtility.m; sourceTree = "<group>"; };
 		15947456FC95B421DF1542E6B96D3F51 /* Pods-MyWeiboHomePage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyWeiboHomePage_Example-dummy.m"; sourceTree = "<group>"; };
-		1741A9B707888767A61DD13189C75265 /* HeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = MyWeiboHomePage/Classes/HeaderView.m; sourceTree = "<group>"; };
-		18953CA0F34FFCF129598216DDAB1BE2 /* ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist"; sourceTree = "<group>"; };
-		1BF16B80A875A202C52C6ABBEC392635 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = MyWeiboHomePage/Classes/HMSegmentedControl.m; sourceTree = "<group>"; };
+		1A29D1F9E90B291E87C6DCBC4504F43E /* HeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = MyWeiboHomePage/Classes/HeaderView.m; sourceTree = "<group>"; };
+		1E78FE556FD92A3DD3B2E95532FB5905 /* PhotoTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoTableViewController.m; path = MyWeiboHomePage/Classes/PhotoTableViewController.m; sourceTree = "<group>"; };
 		22D5C956293B71A86F2B190D520A2354 /* MyWeiboHomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyWeiboHomePage.framework; path = MyWeiboHomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A7692C09E4B9A7B7A5E2F7B35D2FD46 /* ColorUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorUtility.h; path = MyWeiboHomePage/Classes/ColorUtility.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36DF8E396567416C70666D46C57C2C66 /* Pods-MyWeiboHomePage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyWeiboHomePage_Example-Info.plist"; sourceTree = "<group>"; };
-		378307231D704B29C943F87A136B09E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		40C58C1EC924677B95B581C99AAB05CC /* ColorUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorUtility.m; path = MyWeiboHomePage/Classes/ColorUtility.m; sourceTree = "<group>"; };
+		4129DFD3470451D5EA85EB3F07950226 /* BaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = MyWeiboHomePage/Classes/BaseTableViewController.h; sourceTree = "<group>"; };
+		44DF40F2885C1B4E3744A9131064E925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4D47C39495F5571C279F5ED44F07F21A /* Pods-MyWeiboHomePage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyWeiboHomePage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57BFA9C4CF0A0D5251CF70A55B3C7FB6 /* 123.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = 123.jpg; path = MyWeiboHomePage/Assets/123.jpg; sourceTree = "<group>"; };
 		5C0E30916572DF2BFADBF59DB7830241 /* Pods-MyWeiboHomePage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyWeiboHomePage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D64787AE0B8DB7C19AF5878EAAB2CF5 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = MyWeiboHomePage/Classes/HMSegmentedControl.h; sourceTree = "<group>"; };
 		5DEC851BAF6F4329F36FABA63D0D0C05 /* Pods-MyWeiboHomePage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyWeiboHomePage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5E16FAE76668102E34AD2D51016182B3 /* WeiboHomePageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboHomePageViewController.h; path = MyWeiboHomePage/Classes/WeiboHomePageViewController.h; sourceTree = "<group>"; };
-		5FB198CE88F6C5EABCF2E1B9D04A5F0B /* BaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = MyWeiboHomePage/Classes/BaseTableViewController.m; sourceTree = "<group>"; };
-		671A1C5AC44E72B25DEC1FC3D9C561AE /* BaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = MyWeiboHomePage/Classes/BaseTableViewController.h; sourceTree = "<group>"; };
+		664C317A66FEA9A6A22082BDB6B5445D /* HeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = MyWeiboHomePage/Classes/HeaderView.h; sourceTree = "<group>"; };
+		68C427D8911E9B08A832F89762E7E321 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74F2B9E0A63D6E5E7490FD2A2A67CFB9 /* WeiboHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeiboHomePageViewController.m; path = MyWeiboHomePage/Classes/WeiboHomePageViewController.m; sourceTree = "<group>"; };
 		756E835EF72D67BF1F1B213D2626AE7E /* Pods-MyWeiboHomePage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyWeiboHomePage_Example-umbrella.h"; sourceTree = "<group>"; };
-		7BA774F936810160C12C4BF517DC9B93 /* MyWeiboHomePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyWeiboHomePage-prefix.pch"; sourceTree = "<group>"; };
 		7CC5B8D1338F7732A5AE6C25DEE67FED /* MyWeiboHomePageAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyWeiboHomePageAssets.bundle; path = "MyWeiboHomePage-MyWeiboHomePageAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D8CEB7D60840D1BE84B29FD14BFB6A5 /* ProfileTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProfileTableViewController.h; path = MyWeiboHomePage/Classes/ProfileTableViewController.h; sourceTree = "<group>"; };
+		87780CDF652774865461135D11CBA67D /* MyWeiboHomePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyWeiboHomePage-Info.plist"; sourceTree = "<group>"; };
 		8FAD58BE77F96B4E50186FE29A845DCF /* Pods-MyWeiboHomePage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyWeiboHomePage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		91159DC9D2CAAEDFE0438CBFAB52C0DC /* Pods-MyWeiboHomePage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyWeiboHomePage_Example.modulemap"; sourceTree = "<group>"; };
-		9A9AE6C7DAE9C105A0C22BA934BFB24A /* MyWeiboHomePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyWeiboHomePage.modulemap; sourceTree = "<group>"; };
-		9B5EA4931905755560F8E24E5813D6E3 /* PostTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PostTableViewController.h; path = MyWeiboHomePage/Classes/PostTableViewController.h; sourceTree = "<group>"; };
+		98B67FBF4B0769EB702B4E91F07B8F92 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = MyWeiboHomePage/Classes/HMSegmentedControl.h; sourceTree = "<group>"; };
+		98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyWeiboHomePage.xcconfig; sourceTree = "<group>"; };
+		991C3B86A1230D8E6F5EB19B8EB64A92 /* ProfileTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProfileTableViewController.h; path = MyWeiboHomePage/Classes/ProfileTableViewController.h; sourceTree = "<group>"; };
+		9A39D0B9F07410E3801C31F348A429DF /* MyWeiboHomePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyWeiboHomePage.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2DF38C422A15462A3C20B6815AB4557 /* ProfileTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProfileTableViewController.m; path = MyWeiboHomePage/Classes/ProfileTableViewController.m; sourceTree = "<group>"; };
-		BC6E1106146934C0BAEB97C7E0C29900 /* HeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = MyWeiboHomePage/Classes/HeaderView.h; sourceTree = "<group>"; };
-		BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyWeiboHomePage.xcconfig; sourceTree = "<group>"; };
-		C01B291991A09C4C598AA9B72429ABA2 /* PhotoTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoTableViewController.m; path = MyWeiboHomePage/Classes/PhotoTableViewController.m; sourceTree = "<group>"; };
+		A57845B963E4FCB5049FDAD726E61C15 /* PostTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PostTableViewController.h; path = MyWeiboHomePage/Classes/PostTableViewController.h; sourceTree = "<group>"; };
+		A8CBBE71469390A543E63F3CA326E1F6 /* MyWeiboHomePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyWeiboHomePage-umbrella.h"; sourceTree = "<group>"; };
+		B68BADE4688349D59043246F719DC690 /* WeiboHomePageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboHomePageViewController.h; path = MyWeiboHomePage/Classes/WeiboHomePageViewController.h; sourceTree = "<group>"; };
+		BDB5E01EA0AACBC75B2DE0DD6C544A6C /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyWeiboHomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C08FB6FE91CB4E712E7A8BF2159B70A2 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = MyWeiboHomePage/Classes/HMSegmentedControl.m; sourceTree = "<group>"; };
 		C2A98F2AABC97117534F012095A7FD76 /* Pods_MyWeiboHomePage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyWeiboHomePage_Example.framework; path = "Pods-MyWeiboHomePage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C38CBFD51CD4485CB63AFF40CCEC96A6 /* WeiboHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeiboHomePageViewController.m; path = MyWeiboHomePage/Classes/WeiboHomePageViewController.m; sourceTree = "<group>"; };
-		D4F135506B0DFDAD3E930B0F49CA7E8D /* PhotoTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoTableViewController.h; path = MyWeiboHomePage/Classes/PhotoTableViewController.h; sourceTree = "<group>"; };
-		DFE99B1686FBEA04E7F59CFF3BF591AF /* MyWeiboHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyWeiboHomePage-dummy.m"; sourceTree = "<group>"; };
-		E10A8E5C62D0AEF22CF2FF3985B4FE68 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyWeiboHomePage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E327E3BF8E0B700FFAD67BAC45AE39F2 /* PostTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PostTableViewController.m; path = MyWeiboHomePage/Classes/PostTableViewController.m; sourceTree = "<group>"; };
-		E80689E6AB734F727849B18F613FC0A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F56F48EAFA9CAA6D5CBDAFD093517887 /* MyWeiboHomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyWeiboHomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FF339397974C8E764A65C296ADD6148C /* MyWeiboHomePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyWeiboHomePage-Info.plist"; sourceTree = "<group>"; };
+		C8E8B4D37179723AF7397BA4C4031E71 /* MyWeiboHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyWeiboHomePage-dummy.m"; sourceTree = "<group>"; };
+		CBBFF3680E8A30C345F4E30C0461EFDC /* PhotoTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoTableViewController.h; path = MyWeiboHomePage/Classes/PhotoTableViewController.h; sourceTree = "<group>"; };
+		CE091F5CE4E792102E7DF973ADCA1C33 /* 123.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = 123.jpg; path = MyWeiboHomePage/Assets/123.jpg; sourceTree = "<group>"; };
+		D96B3B21B9EB211EC06481D821DADBD6 /* ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist"; sourceTree = "<group>"; };
+		E60F1AC66AAE62B0734B4DDC101B5258 /* MyWeiboHomePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyWeiboHomePage-prefix.pch"; sourceTree = "<group>"; };
+		E7CA9107B9FAF89C1A41ED2B0B015FC5 /* ColorUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorUtility.h; path = MyWeiboHomePage/Classes/ColorUtility.h; sourceTree = "<group>"; };
+		F1492FB8EE4EA8ACE18AA98F34DF6B10 /* ProfileTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProfileTableViewController.m; path = MyWeiboHomePage/Classes/ProfileTableViewController.m; sourceTree = "<group>"; };
+		FCC592FD04C0C7614C25FDE2E376BD74 /* BaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = MyWeiboHomePage/Classes/BaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +131,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		353F70391F8D09F7B18AB1CCA44A9548 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A39D0B9F07410E3801C31F348A429DF /* MyWeiboHomePage.modulemap */,
+				98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */,
+				C8E8B4D37179723AF7397BA4C4031E71 /* MyWeiboHomePage-dummy.m */,
+				87780CDF652774865461135D11CBA67D /* MyWeiboHomePage-Info.plist */,
+				E60F1AC66AAE62B0734B4DDC101B5258 /* MyWeiboHomePage-prefix.pch */,
+				A8CBBE71469390A543E63F3CA326E1F6 /* MyWeiboHomePage-umbrella.h */,
+				D96B3B21B9EB211EC06481D821DADBD6 /* ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyWeiboHomePage";
+			sourceTree = "<group>";
+		};
 		509B6806A4831C48F9EA85052B4B7002 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,14 +156,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60746EB0B64A9BE7A14F20FCC782899B /* Pod */ = {
+		51312C712F19EA718D29847925EB9C6D /* MyWeiboHomePage */ = {
 			isa = PBXGroup;
 			children = (
-				E80689E6AB734F727849B18F613FC0A4 /* LICENSE */,
-				F56F48EAFA9CAA6D5CBDAFD093517887 /* MyWeiboHomePage.podspec */,
-				378307231D704B29C943F87A136B09E6 /* README.md */,
+				4129DFD3470451D5EA85EB3F07950226 /* BaseTableViewController.h */,
+				FCC592FD04C0C7614C25FDE2E376BD74 /* BaseTableViewController.m */,
+				E7CA9107B9FAF89C1A41ED2B0B015FC5 /* ColorUtility.h */,
+				1359A03E6623BB913DFFE11C5D323EA4 /* ColorUtility.m */,
+				664C317A66FEA9A6A22082BDB6B5445D /* HeaderView.h */,
+				1A29D1F9E90B291E87C6DCBC4504F43E /* HeaderView.m */,
+				98B67FBF4B0769EB702B4E91F07B8F92 /* HMSegmentedControl.h */,
+				C08FB6FE91CB4E712E7A8BF2159B70A2 /* HMSegmentedControl.m */,
+				CBBFF3680E8A30C345F4E30C0461EFDC /* PhotoTableViewController.h */,
+				1E78FE556FD92A3DD3B2E95532FB5905 /* PhotoTableViewController.m */,
+				A57845B963E4FCB5049FDAD726E61C15 /* PostTableViewController.h */,
+				0386800BC3D358D5CD8E24AB20C9B857 /* PostTableViewController.m */,
+				991C3B86A1230D8E6F5EB19B8EB64A92 /* ProfileTableViewController.h */,
+				F1492FB8EE4EA8ACE18AA98F34DF6B10 /* ProfileTableViewController.m */,
+				09A787BAA0C91049423A9F97BA0ECB7E /* ReplaceMe.m */,
+				B68BADE4688349D59043246F719DC690 /* WeiboHomePageViewController.h */,
+				74F2B9E0A63D6E5E7490FD2A2A67CFB9 /* WeiboHomePageViewController.m */,
+				8CD58163CEF799FD64336EF435D61A53 /* Pod */,
+				7DFBFAE32F5EF5F23B222D617CF20525 /* Resources */,
+				353F70391F8D09F7B18AB1CCA44A9548 /* Support Files */,
 			);
-			name = Pod;
+			name = MyWeiboHomePage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		67AB5585B1535156BD939CA8D3DE18E4 /* Pods-MyWeiboHomePage_Example */ = {
@@ -170,28 +201,22 @@
 			path = "Target Support Files/Pods-MyWeiboHomePage_Example";
 			sourceTree = "<group>";
 		};
-		78F800B38CEC5BA91B711FC19F36844B /* Support Files */ = {
+		7DFBFAE32F5EF5F23B222D617CF20525 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A9AE6C7DAE9C105A0C22BA934BFB24A /* MyWeiboHomePage.modulemap */,
-				BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */,
-				DFE99B1686FBEA04E7F59CFF3BF591AF /* MyWeiboHomePage-dummy.m */,
-				FF339397974C8E764A65C296ADD6148C /* MyWeiboHomePage-Info.plist */,
-				7BA774F936810160C12C4BF517DC9B93 /* MyWeiboHomePage-prefix.pch */,
-				0729114383F1E39C24E01BA5237C1708 /* MyWeiboHomePage-umbrella.h */,
-				18953CA0F34FFCF129598216DDAB1BE2 /* ResourceBundle-MyWeiboHomePageAssets-MyWeiboHomePage-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MyWeiboHomePage";
-			sourceTree = "<group>";
-		};
-		BBCA8855F8A9B86C754307777422A3DD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				57BFA9C4CF0A0D5251CF70A55B3C7FB6 /* 123.jpg */,
-				00C39BA70E870DDB6D29116C1FCC6E7B /* HeaderView.xib */,
+				CE091F5CE4E792102E7DF973ADCA1C33 /* 123.jpg */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		8CD58163CEF799FD64336EF435D61A53 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44DF40F2885C1B4E3744A9131064E925 /* LICENSE */,
+				BDB5E01EA0AACBC75B2DE0DD6C544A6C /* MyWeiboHomePage.podspec */,
+				68C427D8911E9B08A832F89762E7E321 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -224,37 +249,9 @@
 		E8674D483DD176A498E817DEC0FF1933 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB814B6CDC1250712AA7A6FFE3A2E468 /* MyWeiboHomePage */,
+				51312C712F19EA718D29847925EB9C6D /* MyWeiboHomePage */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EB814B6CDC1250712AA7A6FFE3A2E468 /* MyWeiboHomePage */ = {
-			isa = PBXGroup;
-			children = (
-				671A1C5AC44E72B25DEC1FC3D9C561AE /* BaseTableViewController.h */,
-				5FB198CE88F6C5EABCF2E1B9D04A5F0B /* BaseTableViewController.m */,
-				2A7692C09E4B9A7B7A5E2F7B35D2FD46 /* ColorUtility.h */,
-				40C58C1EC924677B95B581C99AAB05CC /* ColorUtility.m */,
-				BC6E1106146934C0BAEB97C7E0C29900 /* HeaderView.h */,
-				1741A9B707888767A61DD13189C75265 /* HeaderView.m */,
-				5D64787AE0B8DB7C19AF5878EAAB2CF5 /* HMSegmentedControl.h */,
-				1BF16B80A875A202C52C6ABBEC392635 /* HMSegmentedControl.m */,
-				D4F135506B0DFDAD3E930B0F49CA7E8D /* PhotoTableViewController.h */,
-				C01B291991A09C4C598AA9B72429ABA2 /* PhotoTableViewController.m */,
-				9B5EA4931905755560F8E24E5813D6E3 /* PostTableViewController.h */,
-				E327E3BF8E0B700FFAD67BAC45AE39F2 /* PostTableViewController.m */,
-				7D8CEB7D60840D1BE84B29FD14BFB6A5 /* ProfileTableViewController.h */,
-				A2DF38C422A15462A3C20B6815AB4557 /* ProfileTableViewController.m */,
-				E10A8E5C62D0AEF22CF2FF3985B4FE68 /* ReplaceMe.m */,
-				5E16FAE76668102E34AD2D51016182B3 /* WeiboHomePageViewController.h */,
-				C38CBFD51CD4485CB63AFF40CCEC96A6 /* WeiboHomePageViewController.m */,
-				60746EB0B64A9BE7A14F20FCC782899B /* Pod */,
-				BBCA8855F8A9B86C754307777422A3DD /* Resources */,
-				78F800B38CEC5BA91B711FC19F36844B /* Support Files */,
-			);
-			name = MyWeiboHomePage;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +290,7 @@
 			buildPhases = (
 				6C7F2BBB90D92904AF10B86665E76868 /* Sources */,
 				1050F2DDA248FD700B97CB09B6DB5592 /* Frameworks */,
-				63B75D7BF963D27B0525F489D2365AAD /* Resources */,
+				9F70DDF32177B8EE923E4902108590FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -371,12 +368,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63B75D7BF963D27B0525F489D2365AAD /* Resources */ = {
+		9F70DDF32177B8EE923E4902108590FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE1637C2B17B16D09493BAFA04D2371 /* 123.jpg in Resources */,
-				53A55C8878DC3D74627ADA068674CFAB /* HeaderView.xib in Resources */,
+				7B5F7A33F555864783FC3B9B0203CFFA /* 123.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +540,7 @@
 		};
 		6F439249144B4B907ED896626DD3E2EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */;
+			baseConfigurationReference = 98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MyWeiboHomePage";
@@ -657,7 +653,7 @@
 		};
 		C1C1BCC84A22C05404F6F7D6FE321F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */;
+			baseConfigurationReference = 98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MyWeiboHomePage";
@@ -673,7 +669,7 @@
 		};
 		CF54F628B848EB2E4CDA7C51F625DFDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */;
+			baseConfigurationReference = 98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -705,7 +701,7 @@
 		};
 		D88FA98D1058838CCECD246813F6F971 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD31A14E703D3D31B5DBDFCC988687C0 /* MyWeiboHomePage.xcconfig */;
+			baseConfigurationReference = 98C193917BEB76CC79E7D58684FFCF08 /* MyWeiboHomePage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

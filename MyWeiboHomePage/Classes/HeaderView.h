@@ -13,10 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HeaderView : UIView
 
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-
-@property (weak, nonatomic) IBOutlet HMSegmentedControl *segControl;
-
+@property (nonatomic, weak) UILabel *nameLabel;
+@property (nonatomic, weak) UIImageView *headerImage;
+@property (nonatomic, weak) HMSegmentedControl *segControl;
 //@property (nonatomic, assign) BOOL canNotResponseTapTouchEvent;
 @end
 

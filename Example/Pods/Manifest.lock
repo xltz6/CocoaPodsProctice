@@ -2,15 +2,15 @@ PODS:
   - MyWeiboHomePage (0.6.0)
 
 DEPENDENCIES:
-  - MyWeiboHomePage (from `../`)
+  - MyWeiboHomePage (from `../MyWeiboHomePage.podspec`)
 
 EXTERNAL SOURCES:
   MyWeiboHomePage:
-    :path: "../"
+    :path: "../MyWeiboHomePage.podspec"
 
 SPEC CHECKSUMS:
   MyWeiboHomePage: 44f757bf7cd98b9fe6904f454061b9bcbc4b06c6
 
-PODFILE CHECKSUM: 11b1dc8a279bea3231c871fb08448e7f33084360
+PODFILE CHECKSUM: 9a6dfb3b3a0cc380424d79323eb3d3e13729a5a1
 
 COCOAPODS: 1.7.4
