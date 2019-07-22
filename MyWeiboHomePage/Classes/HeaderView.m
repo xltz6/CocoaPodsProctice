@@ -36,7 +36,8 @@
         _nameLabel = label;
         [self addSubview:_nameLabel];
         
-        HMSegmentedControl *seg = [[HMSegmentedControl alloc] init];
+//        HMSegmentedControl *seg = [[HMSegmentedControl alloc] init];
+        UISegmentedControl *seg = [[UISegmentedControl alloc] init];
         seg.backgroundColor = [UIColor grayColor];
         _segControl = seg;
         [self addSubview:_segControl];

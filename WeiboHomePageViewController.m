@@ -121,22 +121,30 @@
 - (void)addHeaderView {
     NSString *path = [NSString stringWithFormat:@"%@/Frameworks/MyWeiboHomePage.framework/%@.bundle", [NSBundle mainBundle].resourcePath, @"MyWeiboHomePageAssets"];
     NSBundle *bundle = [NSBundle bundleWithPath:path];
-    NSString *filepath = [[bundle resourcePath] stringByAppendingPathComponent:@"123.jpg"];
-    //    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
+    NSString *filepath = [[bundle resourcePath] stringByAppendingPathComponent:@"/123.jpg"];
+//    HeaderView *headerView = [[bundle loadNibNamed:@"HeaderView" owner:nil options:nil] lastObject];
     //header height image height (200) + segment control (40)
     HeaderView *headerView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, headerImageHeight+segBarHeight)];
     NSLog(@"%@",filepath);
-    headerView.headerImage.image = [UIImage imageNamed:@"123.jpg" inBundle:bundle compatibleWithTraitCollection:nil];
+    headerView.headerImage.image = [UIImage imageWithContentsOfFile:filepath];
     headerView.nameLabel.text = @"我的主页";
     self.headerView = headerView;
     self.segCtrl = headerView.segControl;
     
-    for (int i = 0; i < _titleList.count; i++)
-    {
+    for (int i = 0; i < _titleList.count; i++){
         [_segCtrl setTitle:_titleList[i] forSegmentAtIndex:i];
     }
     _segCtrl.selectedSegmentIndex = 0;
-    
+    _segCtrl.backgroundColor = [UIColor grayColor];
+    _segCtrl.tintColor = [UIColor grayColor];
+    [_segCtrl setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                      [UIColor colorWithRed:220.0/255.0 green:104.0/255.0 blue:1.0/255.0 alpha:1.0], UITextAttributeTextColor,
+                                      [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0], UITextAttributeTextShadowColor,
+                                      [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset,
+                                      [UIFont fontWithName:@"AmericanTypewriter" size:0.0], UITextAttributeFont,
+                                      nil]
+                            forState:UIControlStateNormal];
+
 //    _segCtrl.sectionTitles = _titleList;
 //    _segCtrl.backgroundColor = [ColorUtility colorWithHexString:@"e9e9e9"];
 //    _segCtrl.selectionIndicatorHeight = 2.0f;
@@ -169,7 +177,7 @@
 // swipe to switch table views according to the index
 - (void)showChildVCViewsAtIndex:(NSInteger)index {
     // check for invalid input index
-    NSLog(@"first time");
+    //NSLog(@"first time");
     if (self.childViewControllers.count == 0 || index < 0 || index > self.childViewControllers.count - 1) {
         return;
     }
@@ -188,11 +196,13 @@
     vc.tableView.contentOffset = CGPointMake(0, offsetY);
     
     // for printing purpose
+    /*
     NSLog(@"newVC offsetY : %f", offsetY);
     
     for(NSString *key in [_offsetYDict allKeys]) {
         NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
     }
+    */
     
     // in two situation, set headerview to different position according to the current offsetY
     if (offsetY <= headerImageHeight - NaviBarHeight) {
@@ -222,7 +232,7 @@
     // before going to another table view, record the current offset and update other child table view
     if (scrollView == self.scrollview) {
         BaseTableViewController *newVC = self.childViewControllers[_currentIndex];
-        NSLog(@"scroll view");
+        //NSLog(@"scroll view");
         
         // update offset
         for (BaseTableViewController *childVC in self.childViewControllers) {
@@ -293,7 +303,7 @@
 - (NSMutableDictionary *)offsetYDict{
     //if offsetDict is not exist, create new
     if (!_offsetYDict){
-        NSLog(@"initialize");
+        //NSLog(@"initialize");
         _offsetYDict = [NSMutableDictionary dictionary];
         for (BaseTableViewController *childVC in self.childViewControllers){
             //using addressStr as key for NSMutableDictionary, set initial value as minimum value of CGFloat
@@ -370,9 +380,9 @@
                 self.offsetYDict[addressStr] = @(segBarHeight);
             }
         }
-        for(NSString *key in [_offsetYDict allKeys]) {
-            NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
-        }
+//        for(NSString *key in [_offsetYDict allKeys]) {
+//            NSLog(@"segment %f",[_offsetYDict[key] floatValue]);
+//        }
     }
 }
 

@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) UILabel *nameLabel;
 @property (nonatomic, weak) UIImageView *headerImage;
-@property (nonatomic, weak) HMSegmentedControl *segControl;
+//@property (nonatomic, weak) HMSegmentedControl *segControl;
+@property (nonatomic, weak) UISegmentedControl *segControl;
 //@property (nonatomic, assign) BOOL canNotResponseTapTouchEvent;
 @end
 
